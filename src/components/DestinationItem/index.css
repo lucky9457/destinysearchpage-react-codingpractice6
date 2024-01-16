@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.mainItemContainer {
+  height: 400px;
+  padding: 20px;
+  list-style-type: none;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+}
+.img1 {
+  height: 70%;
+}
+@media (width<576px) {
+  .mainItemContainer {
+    height: 300px;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+  }
+  .head {
+    font-size: 20px;
+  }
+}
+@media (width>=768px) {
+  .mainItemContainer {
+    height: 300px;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+  }
+}

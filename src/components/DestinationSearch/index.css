@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.main {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+.searchinput {
+  background-color: aliceblue;
+  color: grey;
+  border-right: 0px;
+}
+.searchimg {
+  height: 30px;
+  background-color: aliceblue;
+  border: solid 2px;
+  border-left: 0px;
+}
+
+.inputcontainer {
+  display: flex;
+}
+.itemsCon {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
